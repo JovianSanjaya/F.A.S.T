@@ -92,6 +92,8 @@ Run the extra features
   python fire.py
 ```
 
+Note: need to replace with your own api and json key 
+
 <h2>🏛️Software Architecture Diagram</h2>
 
 ![image](https://github.com/ET0735-DevOps-AIoT-AY2320/DCPE_2A_21_Group3/assets/132749552/2a172b16-a054-43f5-8dc5-ca3fba9907af)
