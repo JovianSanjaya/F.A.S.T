@@ -92,7 +92,7 @@ Run the extra features
   python fire.py
 ```
 
-Note: need to replace with your own api and json key 
+Note: need to replace with your own chat id,token,and json key 
 
 <h2>🏛️Software Architecture Diagram</h2>
 
