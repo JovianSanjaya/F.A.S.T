@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprinkler Control Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Sprinkler Control Panel</h1>
+    <div class="container">
+        <button class="button" id="startButton">Start Sprinkler</button>
+        <button class="button" id="stopButton">Stop Sprinkler</button>
+    </div>
+    <script>
+        var backgroundVisible = false;
+
+        document.getElementById('startButton').addEventListener('click', function() {
+            // Show background image when starting sprinkler
+            
+            document.body.style.backgroundImage = 'url("water_sprinkler.gif")';
+            document.body.style.backgroundRepeat = 'no-repeat'; 
+            document.body.style.backgroundSize = '170%';
+            
+            // You can add JavaScript code here to send a request to start the sprinkler
+            alert('Sprinkler started!');
+        });
+
+        document.getElementById('stopButton').addEventListener('click', function() {
+            document.body.style.backgroundImage = 'none'; // Remove background image
+            document.body.style.backgroundColor = 'white';
+            document.body.style.backgroundImage = 'transparent' ; // Set the path to your background GIF
+            document.getElementById('title').style.color = 'black';
+            alert('Sprinkler stopped!');
+        });
+    </script>
+</body>
+</html>

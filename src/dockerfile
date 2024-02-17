@@ -1,0 +1,17 @@
+# Use an official Python runtime as the base image
+FROM arm32v7/python:3-jessie
+
+# Set the working directory in the container
+WORKDIR /src
+
+# Copy the current directory contents into the container at /src
+COPY . .
+
+# Install any dependencies
+RUN pip3 install --no-cache-dir rpi.gpio
+
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
+
+# Run the Python script when the container launches
+CMD ["python3", "main.py"]
