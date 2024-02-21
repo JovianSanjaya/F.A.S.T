@@ -96,8 +96,6 @@ Note: need to replace with your own chat id,token,and json key
 
 <h2>🏛️Software Architecture Diagram</h2>
 
-![image](https://github.com/ET0735-DevOps-AIoT-AY2320/DCPE_2A_21_Group3/assets/132749552/2a172b16-a054-43f5-8dc5-ca3fba9907af)
-
 ![diagram-export-2-17-2024-2_04_20-PM](https://github.com/ET0735-DevOps-AIoT-AY2320/DCPE_2A_21_Group3/assets/132749552/f6ae7b8f-c783-417d-beff-8707e0c4c954)
 
 
