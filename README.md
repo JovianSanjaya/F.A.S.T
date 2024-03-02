@@ -1,4 +1,4 @@
-<h1>🔥FAST (Fire Alarm Sytem Technology)🔥</h1>
+<h1>🔥F.A.S.T (Fire Alarm Sytem Technology)🔥</h1>
 
 ![photo_2024-02-15_03-10-39](https://github.com/ET0735-DevOps-AIoT-AY2320/DCPE_2A_21_Group3/assets/132749552/2ca96984-6be1-4dc2-9e39-0dba53440bbf)
 
