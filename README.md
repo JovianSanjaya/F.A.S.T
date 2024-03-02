@@ -29,21 +29,6 @@
 The Smart Fire Alarm System is a DevOps final project focused on developing an intelligent fire detection and response system. It involves stages like planning, development, testing, deployment, and monitoring. The system is designed to detect fire incidents, issue real-time alerts, and integrate with hardware sensors. 
 DevOps practices such as continuous integration, deployment automation, and monitoring are utilized to ensure efficient development, deployment, and maintenance of the system.
 
-<h2>📚What We learn </h2>
-Software Development: Understanding of software development methodologies, programming languages, and frameworks for building the Smart Fire Alarm System.
-
-DevOps Practices: Hands-on experience with DevOps practices such as continuous integration, continuous deployment, infrastructure as code, and automated testing.
-
-Infrastructure Management: Familiarity with tools for managing infrastructure components like servers, databases, and networking.
-
-Monitoring and Logging: Understanding of monitoring and logging tools and techniques to track system performance, detect issues, and troubleshoot problems effectively.
-
-Collaboration and Communication: Experience working in cross-functional teams, collaborating with developers, operations professionals, and other stakeholders throughout the project lifecycle.
-
-Project Management: Skills in project planning, task prioritization, and resource allocation to ensure timely delivery of project milestones.
-
-Problem-Solving: Ability to identify and solve technical challenges encountered during the development, deployment, and maintenance of the Smart Fire Alarm System.
-
 <h2>👨🏻‍💻Collaborators</h2>
 <ul>
   <li>Jovian</li>
